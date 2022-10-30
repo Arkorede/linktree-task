@@ -19,7 +19,10 @@ function Content() {
     <a href="https://github.com/Arkorede">
       <img src={Icon} alt="GitHub logo" />
     </a>
-
+    <br />
+    <br />
+    <br />
+    <br />
   </section>
 }
 
