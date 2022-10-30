@@ -1,6 +1,6 @@
 import React from 'react'
 import slack from './slack.png'
-import icon from './Icon.png'
+import Icon from './Icon.png'
 
 function Content() {
   return <section>
@@ -17,7 +17,7 @@ function Content() {
       <img src={slack} alt="Slack logo" />
     </a>
     <a href="https://github.com/Arkorede">
-      <img src={icon} alt="GitHub logo" />
+      <img src={Icon} alt="GitHub logo" />
     </a>
 
   </section>
