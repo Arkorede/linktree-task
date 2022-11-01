@@ -1,38 +1,168 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  /* Percentage of user's browser font-size setting */
+  font-size: 62.5%;
+}
+
+/* HEADER COMPONENT */
 .App {
+  position: relative;
+  margin: 0 auto;
+  background: #ffffff;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+#profile__img {
+  position: relative;
   text-align: center;
+  display: block;
+  width: 100%;
+  margin-top: 1.2rem;
+  margin-left: 0.8rem;
+  width: 5rem;
+  height: 5rem;
+  border-radius: 50%;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+#twitter {
+  width: 100%;
+  font-weight: 700;
+  text-align: center;
+  margin-top: 0.5rem;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+#slack {
+  display: none;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.btn-share {
+  position: absolute;
+  width: 2rem;
+  height: 2rem;
+  right: 15.8rem;
+  top: 0.5rem;
+}
+
+/* CONTENT COMPONENT */
+.text-links {
+  margin-top: 2.5rem;
   display: flex;
   flex-direction: column;
-  align-items: center;
+  gap: 0.8rem;
+}
+
+.text-link {
+  text-align: center;
+  text-decoration: none;
+  background: #eaecf0;
+  border: 1px solid #eaecf0;
+  border-radius: 8px;
+  padding: 1.4rem 10rem;
+}
+
+.text-link:link {
+  color: #101828;
+}
+.text-link:visited {
+  color: #101828;
+}
+.text-link:hover {
+  background: #d0d5dd;
+}
+.text-link:active {
+  color: #101828;
+}
+
+.social-link {
+  display: flex;
+  gap: 1rem;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  align-items: center;
 }
 
-.App-link {
-  color: #61dafb;
+.social-link a img {
+  width: 1.2rem;
+  height: 1.2rem;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+/* FOOTER COMPONENT */
+.footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 6.4rem;
+  padding: 1.6rem 1.4rem;
+  width: 100%;
+  border-top: 1px solid #f1f3f5;
 }
+
+.zuri__logo {
+  width: 13.8rem;
+  height: 2.2rem;
+}
+
+.footer__text {
+  width: 18.2rem;
+  height: 1.1rem;
+}
+
+.ingressive__logo {
+  width: 11.2rem;
+  height: 2.5rem;
+}
+
+/* .img-wrapper img.img-hover {
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  object-fit: contain;
+  opacity: 0;
+  transition: opacity 0.2s;
+}
+
+.img-wrapper:hover img.image-hover {
+  opacity: 1;
+} */
+
+/* .img-wrapper > #profile__img {
+  display: block;
+  width: 100%;
+  aspect-ratio: 1 / 1;
+  object-fit: cover;
+  object-position: center;
+}
+
+.img-wrapper > .content {
+  position: absolute;
+  inset: 0;
+  color: #fff;
+  width: 2rem;
+  height: 1.9rem;
+  top: 3rem;
+  left: 1.5rem;
+  background: rgba(255, 255, 255, 0.4);
+}
+
+.img-wrapper > #profile__img,
+.img-wrapper > .content {
+  transition: 200ms ease-in-out;
+}
+
+.img-wrapper > .content.fade {
+  opacity: 0;
+}
+
+.img-wrapper:hover > .content.fade {
+  opacity: 1;
+} */
