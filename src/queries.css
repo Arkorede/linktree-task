@@ -1,0 +1,19 @@
+/***********************/
+/* BELOW 704PX (Smaller Tablets */
+/***********************/
+
+@media (max-width: 44em) {
+  .btn-share {
+    display: none;
+  }
+
+  .btn-dots {
+    display: block;
+  }
+
+  .footer {
+    flex-direction: column;
+    gap: 2rem;
+    align-items: flex-start;
+  }
+}

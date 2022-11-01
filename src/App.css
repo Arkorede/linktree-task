@@ -52,6 +52,15 @@ html {
   top: 0.5rem;
 }
 
+.btn-dots {
+  position: absolute;
+  display: none;
+  width: 2rem;
+  height: 2rem;
+  right: 1.5rem;
+  top: 0.5rem;
+}
+
 /* CONTENT COMPONENT */
 .text-links {
   margin-top: 2.5rem;
@@ -119,50 +128,3 @@ html {
   width: 11.2rem;
   height: 2.5rem;
 }
-
-/* .img-wrapper img.img-hover {
-  position: absolute;
-  top: 0;
-  right: 0;
-  left: 0;
-  bottom: 0;
-  object-fit: contain;
-  opacity: 0;
-  transition: opacity 0.2s;
-}
-
-.img-wrapper:hover img.image-hover {
-  opacity: 1;
-} */
-
-/* .img-wrapper > #profile__img {
-  display: block;
-  width: 100%;
-  aspect-ratio: 1 / 1;
-  object-fit: cover;
-  object-position: center;
-}
-
-.img-wrapper > .content {
-  position: absolute;
-  inset: 0;
-  color: #fff;
-  width: 2rem;
-  height: 1.9rem;
-  top: 3rem;
-  left: 1.5rem;
-  background: rgba(255, 255, 255, 0.4);
-}
-
-.img-wrapper > #profile__img,
-.img-wrapper > .content {
-  transition: 200ms ease-in-out;
-}
-
-.img-wrapper > .content.fade {
-  opacity: 0;
-}
-
-.img-wrapper:hover > .content.fade {
-  opacity: 1;
-} */
