@@ -7,11 +7,9 @@ import dotsButton from './dotsButton.png'
 function Header() {
   return <div>
     <div className="header">
-      {/* <div className="bio"> */}
       <img src={myImage} id="profile__img" alt="Israel Ashaolu" />
       <p id='twitter'>Israel Ashaolu</p>
       <p id="slack">Arkorede</p>
-      {/* </div> */}
       <img src={shareButton} className="btn-share" alt="A share button" />
       <img src={dotsButton} className="btn-dots" alt="A dots button" />
     </div>
