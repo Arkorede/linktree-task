@@ -11,7 +11,7 @@ function Content() {
       <a href="https://books.zuri.team/python-for-beginners?ref_id=<arkorede>" id="book__python" title="Buy Python for Beginner😊" className="text-link">Python Books</a>
       <a href="https://background.zuri.team/" id="pitch" title="Where you pitch a service for doing background checks on coders" className="text-link">Background Check for Coders</a>
       <a href="https://books.zuri.team/design-rules" id="book__design" title="Where you pitch the free design book offered by Zuri." className="text-link">Design Books</a>
-      <a id="contact" className="text-link">Contact Me</a>
+      <a href="https://books.zuri.team/design-rules" id="contact" className="text-link">Contact Me</a>
     </div>
     <br />
     <br />
