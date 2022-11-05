@@ -10,16 +10,10 @@ function App() {
   return (
     <Router>
       <div className="App">
-        {/* <Header /> */}
-        {/* <Content /> */}
-        {/* <Footer /> */}
-
         <Routes>
           <Route path="/" element={<Content />} />
-          {/* <Route path="/" element={<Footer />} /> */}
           <Route exact path="/contact" element={<Contact />} />
           <Route exact path="/redirect" element={<Navigate to="/contact" />} />
-          {/* <Redirect to="/contact" /> */}
         </Routes>
         <Footer />
       </div>

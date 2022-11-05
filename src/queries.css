@@ -11,6 +11,10 @@
     display: block;
   }
 
+  .text-links {
+    margin-top: 2rem;
+  }
+
   .footer {
     flex-direction: column;
     gap: 2rem;

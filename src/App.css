@@ -22,13 +22,11 @@ html {
 }
 
 #profile__img {
-  position: relative;
   text-align: center;
   display: block;
-  width: 100%;
-  margin-top: 1.2rem;
-  margin-left: 0.8rem;
+  margin: auto;
   width: 5rem;
+  margin-top: 1.2rem;
   height: 5rem;
   border-radius: 50%;
 }
@@ -37,7 +35,7 @@ html {
   width: 100%;
   font-weight: 700;
   text-align: center;
-  margin-top: 0.5rem;
+  margin-top: 1rem;
 }
 
 #slack {

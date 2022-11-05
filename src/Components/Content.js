@@ -8,13 +8,13 @@ import { Link } from 'react-router-dom'
 
 function Content() {
   return <div>
-    <div className="header">
-      <img src={myImage} id="profile__img" alt="Israel Ashaolu" />
-      <p id='twitter'>Israel Ashaolu</p>
-      <p id="slack">Arkorede</p>
-      <img src={shareButton} className="btn-share" alt="A share button" />
-      <img src={dotsButton} className="btn-dots" alt="A dots button" />
-    </div>
+    {/* <div className="header"> */}
+    <img src={myImage} id="profile__img" alt="Israel Ashaolu" />
+    <p id='twitter'>Israel Ashaolu</p>
+    <p id="slack">Arkorede</p>
+    <img src={shareButton} className="btn-share" alt="A share button" />
+    <img src={dotsButton} className="btn-dots" alt="A dots button" />
+    {/* </div> */}
 
     <div className="text-links">
       <a href="https://twitter.com/IsraelAshaolu" id="twitter__link" className="text-link">Twitter Link</a>
