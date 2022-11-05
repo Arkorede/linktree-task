@@ -20,4 +20,8 @@
     gap: 2rem;
     align-items: flex-start;
   }
+
+  .full-name {
+    grid-template-columns: 1fr;
+  }
 }

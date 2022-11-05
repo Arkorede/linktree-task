@@ -126,3 +126,14 @@ html {
   width: 11.2rem;
   height: 2.5rem;
 }
+
+/* CONTACT PAGE */
+.full-name {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  column-gap: 1.5rem;
+}
+
+#btn__submit {
+  box-shadow: 0px 1px 2px 0px #1018280d;
+}
