@@ -1,7 +1,7 @@
 import React from 'react'
 
 function Contact() {
-  return <div style={{ marginTop: "5.2rem" }}>
+  return <div className="mx-auto" style={{ marginTop: "5.2rem" }}>
     <h1>Contact Me</h1>
     <p class="lead mb-5">
       Hi there, contact me to ask me about anything you have in mind.
@@ -29,7 +29,7 @@ function Contact() {
         <input type="checkbox" class="form-check-input" id="exampleCheck1" required />
         <label className="form-check-label" for="exampleCheck1">You agree to providing your data to Israel Ashaolu who may contact you.</label>
       </div>
-      <button type="submit" className="btn btn-primary w-100" id="btn__submit" style={{ marginTop: "1rem", marginBottom: "8rem" }}>Submit</button>
+      <button type="submit" className="btn btn-primary w-100" id="btn__submit" style={{ marginTop: "1rem", marginBottom: "8rem" }}>Send message</button>
     </form >
   </div >
 }
