@@ -1,7 +1,7 @@
 import React from 'react'
 
 function Contact() {
-  return <div className="mx-auto" style={{ marginTop: "5.2rem" }}>
+  return <div style={{ marginTop: "5.2rem", padding: "2.3rem" }}>
     <h1>Contact Me</h1>
     <p class="lead mb-5">
       Hi there, contact me to ask me about anything you have in mind.
